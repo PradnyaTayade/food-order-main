@@ -1,0 +1,204 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;600;700&display=swap');
+:root{
+    --red: #ff6b81;
+}
+*{
+    font-family: 'Nunito', sans-serif;
+    margin:0; padding: 0;   
+    box-sizing: border-box;
+    outline-color: all;border-width: 12px;
+    text-decoration: all;
+    text-transform: none;
+    transition: all  .2s linear;
+     
+}
+.clearfix{
+    float: none;
+    clear: both;
+}
+.wrapper{
+  
+    padding: 1%;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.text-center{
+    text-align: center;
+}
+
+
+a{
+    color: #ff6b81;
+    text-decoration: none;
+}
+a:hover{
+    color: #ff4757;
+}
+.footer{
+    bottom: 0;left: 0;right: 0;
+    box-shadow: 0 .5rem 1rem rgba(0, 0, 0, 1.0) ;
+    background: #f3f3f3;
+}
+.footer{
+    bottom: 0;left: 0;right: 0;
+    box-shadow: 0 .5rem 1rem rgba(0, 0, 0, 1.0) ;
+    background: #f3f3f3;
+}
+.footer .share{
+    display: flex;
+    gap: 1.5rem;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.footer .credit{
+    padding: 1%;
+    color: #666;
+    font-weight: normal;
+    font-size: 1.1rem;
+    text-align: center;
+}
+
+.footer .credit span{
+    color:  var(--red);
+
+}
+
+
+.text-center{
+    text-align: center;
+}
+/* css for menu*/
+.menu{
+    border-bottom: 1px solid grey;
+}
+.menu .wrapper{
+    line-height: 60px;
+}
+.menu .wrapper ul{
+    list-style-type: none;
+    text-align: center;
+}
+
+.menu .wrapper ul li{
+    display: inline;
+    padding: 1%;
+    font-weight: bold;
+    font-size: 1.3rem;
+    margin-left: 1.5rem;
+    color: var(--red);
+    text-transform: capitalize;
+}
+.menu .wrapper ul li:hover{
+    color: red;
+    cursor: pointer;
+    z-index: 0;
+    position: relative;
+    margin-top: 1rem;
+    display: inline;
+    padding: .1rem .5rem;
+}
+/* css main content*/
+.main-content{
+    background-color: #f1f2f6;
+    padding: 3% 0;
+
+
+}
+.col-4{
+    width: 20%;
+    background-color: white;
+    margin: 1%;
+    padding: 2%;
+    float: left;
+}
+.tbl-full{
+    width: 100%;
+}
+table tr th{
+    border-bottom: 1px solid black ;
+    padding: 1%;
+    text-align: left;
+}
+table tr td{
+    padding: 1%;
+}
+
+.btn-primary{
+    background-color: #1e90ff;
+    padding: 1%;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+.btn-primary:hover{
+    background-color: #3742fa;
+    color: white;
+}
+.btn-secondary{
+    background-color: #c66eee;
+    padding: 1%;
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+}
+.btn-secondary:hover{
+    background-color: #fa37ea;
+    color: white;
+}
+.btn-danger{
+    background-color: #eb447c;
+    padding: 1%;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+.btn-danger:hover{
+    background-color: #fa3737;
+    color: black;
+}
+.tbl-full{
+    width: 100%;
+}
+.tbl-30{
+    width: 30%;
+}
+.inputBox{
+    display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+.inputBox input{
+    padding: 1%;
+	margin: 1% 0 ;
+	font-size: 1rem;
+	color: #333;
+	text-transform: none;
+	border: 1px solid rgba(0, 0, 0, .3);
+	border-radius: 0.5%;
+	width: 100%;
+
+}
+.success{
+    color:rgb(141, 2, 141);
+}
+.error{
+    color: red;
+}
+.login{
+    border: 5px solid black;
+    width: 20%;
+    margin: 10% auto;
+    padding:2%;
+    background-color: rgb(121, 247, 247);
+}
+.login h1{
+    text-align: center;
+    color: rgb(141, 2, 141);
+    text-decoration: underline;
+    text-transform: uppercase;
+    background-color: antiquewhite;
+}
+
+
