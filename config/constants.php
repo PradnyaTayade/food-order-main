@@ -5,10 +5,10 @@ session_start();
 
 //Create Constants to store Non Repeating Values
 define('SITEURL','http://localhost/food-order-main/');
-define('LOCALHOST','localhost');
-define('DB_USERNAME','root');
-define('DB_PASSWORD','');
-define('DB_NAME','food-order');
+define('LOCALHOST',$_SERVER['RDS_HOSTNAME']);
+define('DB_USERNAME',$_SERVER['RDS_USERNAME']);
+define('DB_PASSWORD',$_SERVER['RDS_PASSWORD']);
+define('DB_NAME',$_SERVER['RDS_DB_NAME']);
 
 
        $conn = mysqli_connect(LOCALHOST, DB_USERNAME, DB_PASSWORD) or die(mysqli_error());
