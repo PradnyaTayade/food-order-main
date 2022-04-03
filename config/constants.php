@@ -4,7 +4,7 @@ session_start();
 
 
 //Create Constants to store Non Repeating Values
-//define('SITEURL','');
+define('SITEURL','');
 define('DB_TABLE', 'urler');
 define('LOCALHOST',$_SERVER['RDS_HOSTNAME']);
 define('DB_USERNAME',$_SERVER['RDS_USERNAME']);
