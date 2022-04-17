@@ -1,4 +1,5 @@
 <?php 
+
       include('../config/constants.php'); 
       include('login-check.php');  //1.for login we have to comment this line if we are creating database go to login.php
 
