@@ -4,7 +4,7 @@ session_start();
 
 
 //Create Constants to store Non Repeating Values
-define('SITEURL','http://Foodorder-env.eba-4mt6su3w.us-east-1.elasticbeanstalk.com/');
+define('SITEURL','http://foodorder-env.eba-mndi6s7b.us-east-1.elasticbeanstalk.com/');
 define('DB_TABLE', 'urler');
 define('LOCALHOST',$_SERVER['RDS_HOSTNAME']);
 define('DB_USERNAME',$_SERVER['RDS_USERNAME']);
