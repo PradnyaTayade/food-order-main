@@ -66,7 +66,7 @@ if(isset($_POST['submit']))
     if($count==1)
     {
         $_SESSION['login'] ="<div class='success'>Login Successfully</div>";
-        $_SESSION['user'] = $username; //2. comment this as well and go to login check.php
+        //$_SESSION['user'] = $username; //2. comment this as well and go to login check.php
         header('location:'.SITEURL.'admin/');
     }
     else{
